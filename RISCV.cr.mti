@@ -1,0 +1,99 @@
+C:/Users/HuyDepTry/Desktop/RISCV/ALUControl.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/ALUControl.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALUControl
+
+Top level modules:
+	ALUControl
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Mux1.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Mux1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mux1
+
+Top level modules:
+	Mux1
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/PCplus4.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/PCplus4.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module PCplus4
+
+Top level modules:
+	PCplus4
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Mux2.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Mux2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Mux2
+
+Top level modules:
+	Mux2
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Program_Counter.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Program_Counter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Program_Counter
+
+Top level modules:
+	Program_Counter
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Control_Unit.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Control_Unit.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Control_Unit
+
+Top level modules:
+	Control_Unit
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Top_tb.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Top_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Top_tb
+
+Top level modules:
+	Top_tb
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Instruction_Memory
+
+Top level modules:
+	Instruction_Memory
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Data_memory.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Data_memory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/ALU.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/ALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Register_File.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Register_File.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Register_File
+
+Top level modules:
+	Register_File
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Immediate_Generator.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Immediate_Generator.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Immediate_Generator
+
+Top level modules:
+	Immediate_Generator
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Adder.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Adder.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/RISCV_Top.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/RISCV_Top.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RISCV_Top
+
+Top level modules:
+	RISCV_Top
+
+} {} {}}

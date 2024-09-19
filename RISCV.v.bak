@@ -1,0 +1,23 @@
+module RISCV ()
+
+
+wire  [31:0] instructionTop
+
+
+
+Program_Counter Program_Counter (
+.clk(),
+.reset(),
+.PC_in(),
+.PC_out(instructionTop)
+.instruction_out()
+
+);
+
+
+Instruction_mem Instruction_mem(
+.reset(),
+.read_address(instructionTop),
+.
+
+); 

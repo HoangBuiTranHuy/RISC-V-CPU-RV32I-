@@ -1,0 +1,25 @@
+module ALUControl (ALUOp_in, funct7, funct3, ALUControl_out);
+input [1:0] ALUOp_in;
+input [31:25] funct7;
+input [14:12] funct3;
+
+output [3:0] ALUControl_out;
+
+
+
+always @ (*)
+begin
+	
+	case({ALUOp_in, funct7, funct3})
+	
+	12'b00_xxxxxxx_xxx:  ALUControl_out = 4'b0010; 
+	12'bx1_xxxxxxx_xxx:  ALUControl_out = 4'b0110; 
+	12'b1x_0000000_000:  ALUControl_out = 4'b0010; 
+	12'b1x_0100000_000:  ALUControl_out = 4'b0110; 
+	12'b1x_0000000_111:  ALUControl_out = 4'b0000; 
+	12'b1x_0000000_110:  ALUControl_out = 4'b0001; 
+	endcase
+
+end
+
+endmodule
