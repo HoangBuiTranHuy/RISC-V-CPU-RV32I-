@@ -18,7 +18,7 @@ r1
 Z9 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/Adder.v|
 Z10 o-work work -O0
 Z11 n@adder
-Z12 !s108 1726461598.456000
+Z12 !s108 1726849007.640000
 Z13 !s107 C:/Users/HuyDepTry/Desktop/RISCV/Adder.v|
 !i10b 1
 !s85 0
@@ -38,17 +38,17 @@ r1
 Z20 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/ALU.v|
 R10
 Z21 n@a@l@u
-Z22 !s108 1726461598.119000
+Z22 !s108 1726849007.338000
 Z23 !s107 C:/Users/HuyDepTry/Desktop/RISCV/ALU.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vALUControl
-Z24 !s100 mb>LG69FX;=jS2NK<70I71
-Z25 I6m@<TbBezbEBEz7X:CP7=0
-Z26 VjYmjBV_=>GjFa[WZ=E4Y`3
+Z24 !s100 0[f076D0cZRP]zh[iAYGe1
+Z25 IGA1lEUU6WM^dzIGTjVBV01
+Z26 V4kV<T^];XZ3MJN0=[YU1?2
 R4
-Z27 w1726425842
+Z27 w1726823096
 Z28 8C:/Users/HuyDepTry/Desktop/RISCV/ALUControl.v
 Z29 FC:/Users/HuyDepTry/Desktop/RISCV/ALUControl.v
 L0 1
@@ -58,7 +58,7 @@ r1
 Z30 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/ALUControl.v|
 R10
 Z31 n@a@l@u@control
-Z32 !s108 1726461598.186000
+Z32 !s108 1726849007.399000
 Z33 !s107 C:/Users/HuyDepTry/Desktop/RISCV/ALUControl.v|
 !i10b 1
 !s85 0
@@ -78,17 +78,17 @@ r1
 Z40 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/Control_Unit.v|
 R10
 Z41 n@control_@unit
-Z42 !s108 1726461598.324000
+Z42 !s108 1726849007.516000
 Z43 !s107 C:/Users/HuyDepTry/Desktop/RISCV/Control_Unit.v|
 !i10b 1
 !s85 0
 !s101 -O0
-vData_Memory
-Z44 !s100 X=AV`UBo`U5X@J7S[za>^2
-Z45 I`UF3IJQa7=YF17_;AYPOF0
-Z46 V2KgOBVVO>m@2lGSE4KSHd3
+vData_memory
+Z44 !s100 GJU1a?GBEN9zWDP_I^j`H1
+Z45 I_IFEofY;Fg1j1DGJaO^JB0
+Z46 V=K]jZ<i3DI[z7UaBT=lNl3
 R4
-Z47 w1726460078
+Z47 w1725606341
 Z48 8C:/Users/HuyDepTry/Desktop/RISCV/Data_memory.v
 Z49 FC:/Users/HuyDepTry/Desktop/RISCV/Data_memory.v
 L0 1
@@ -97,18 +97,18 @@ r1
 31
 Z50 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/Data_memory.v|
 R10
-Z51 n@data_@memory
-Z52 !s108 1726461598.257000
+Z51 n@data_memory
+Z52 !s108 1725648834.852000
 Z53 !s107 C:/Users/HuyDepTry/Desktop/RISCV/Data_memory.v|
 !i10b 1
 !s85 0
 !s101 -O0
-vData_memory
-Z54 !s100 GJU1a?GBEN9zWDP_I^j`H1
-Z55 I_IFEofY;Fg1j1DGJaO^JB0
-Z56 V=K]jZ<i3DI[z7UaBT=lNl3
+vData_Memory
+Z54 !s100 X=AV`UBo`U5X@J7S[za>^2
+Z55 I`UF3IJQa7=YF17_;AYPOF0
+Z56 V2KgOBVVO>m@2lGSE4KSHd3
 R4
-Z57 w1725606341
+Z57 w1726831736
 R48
 R49
 L0 1
@@ -117,28 +117,28 @@ r1
 31
 R50
 R10
-Z58 n@data_memory
-Z59 !s108 1725648834.852000
+Z58 n@data_@memory
+Z59 !s108 1726849007.458000
 R53
 !i10b 1
 !s85 0
 !s101 -O0
 vImmediate_Generator
-Z60 I]e=B9licc4<[D`ehf6;oW1
-Z61 V9hSO3hH5hcaac`IC4>nhB1
+Z60 !s100 ^1_k7G2NPLVc=?RXX2W3`0
+Z61 I]e=B9licc4<[D`ehf6;oW1
+Z62 V9hSO3hH5hcaac`IC4>nhB1
 R4
-Z62 w1726461595
-Z63 8C:/Users/HuyDepTry/Desktop/RISCV/Immediate_Generator.v
-Z64 FC:/Users/HuyDepTry/Desktop/RISCV/Immediate_Generator.v
+Z63 w1726461595
+Z64 8C:/Users/HuyDepTry/Desktop/RISCV/Immediate_Generator.v
+Z65 FC:/Users/HuyDepTry/Desktop/RISCV/Immediate_Generator.v
 L0 1
 R8
 r1
 31
-Z65 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/Immediate_Generator.v|
+Z66 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/Immediate_Generator.v|
 R10
-Z66 n@immediate_@generator
-Z67 !s100 ^1_k7G2NPLVc=?RXX2W3`0
-Z68 !s108 1726461598.588000
+Z67 n@immediate_@generator
+Z68 !s108 1726849007.763000
 Z69 !s107 C:/Users/HuyDepTry/Desktop/RISCV/Immediate_Generator.v|
 !i10b 1
 !s85 0
@@ -164,21 +164,21 @@ Z79 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/Instruc
 !s85 0
 !s101 -O0
 vInstruction_Memory
-Z80 ILFI[0m6;R`E8^iP0E?<Yi2
-Z81 V5YcDoXBa^hFGE:1`DZ_If3
+Z80 !s100 ez8_o5cUMGmD0hBHmGMc?1
+Z81 Ie[ZWUIQh<A4adVfl`:X>K3
+Z82 V0][[PIWf4L7Fi:]E3icQS2
 R4
-Z82 w1726461181
-Z83 8C:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v
-Z84 FC:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v
+Z83 w1726848932
+Z84 8C:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v
+Z85 FC:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v
 L0 1
 R8
 r1
 31
-Z85 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v|
+Z86 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v|
 R10
-Z86 n@instruction_@memory
-Z87 !s100 _5Bc9OK4c_I33j6c9a7HK3
-Z88 !s108 1726461598.521000
+Z87 n@instruction_@memory
+Z88 !s108 1726849007.701000
 Z89 !s107 C:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v|
 !i10b 1
 !s85 0
@@ -198,7 +198,7 @@ r1
 Z96 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/Mux1.v|
 R10
 Z97 n@mux1
-Z98 !s108 1726461598.659000
+Z98 !s108 1726849007.827000
 Z99 !s107 C:/Users/HuyDepTry/Desktop/RISCV/Mux1.v|
 !i10b 1
 !s85 0
@@ -220,7 +220,7 @@ R10
 Z107 n@mux2
 !i10b 1
 !s85 0
-Z108 !s108 1726461598.728000
+Z108 !s108 1726849007.886000
 Z109 !s107 C:/Users/HuyDepTry/Desktop/RISCV/Mux2.v|
 !s101 -O0
 vPCplus4
@@ -238,7 +238,7 @@ r1
 Z116 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/PCplus4.v|
 R10
 Z117 n@p@cplus4
-Z118 !s108 1726461598.390000
+Z118 !s108 1726849007.579000
 Z119 !s107 C:/Users/HuyDepTry/Desktop/RISCV/PCplus4.v|
 !i10b 1
 !s85 0
@@ -258,7 +258,7 @@ r1
 Z126 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/Program_Counter.v|
 R10
 Z127 n@program_@counter
-Z128 !s108 1726461597.922000
+Z128 !s108 1726849007.161000
 Z129 !s107 C:/Users/HuyDepTry/Desktop/RISCV/Program_Counter.v|
 !i10b 1
 !s85 0
@@ -278,27 +278,27 @@ r1
 Z136 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/Register_File.v|
 R10
 Z137 n@register_@file
-Z138 !s108 1726461597.992000
+Z138 !s108 1726849007.224000
 Z139 !s107 C:/Users/HuyDepTry/Desktop/RISCV/Register_File.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vRISCV_Top
-Z140 !s100 N2Q5Ulao72mKZM8]Um3[z1
-Z141 Io`HiXCLCG_db>fAacRZT=1
-Z142 VDakbUWQ8U3eXDeZU:<h4_0
+Z140 I=N97CXZg`LLOWF9ce6C_U2
+Z141 VDakbUWQ8U3eXDeZU:<h4_0
 R4
-Z143 w1726457472
-Z144 8C:/Users/HuyDepTry/Desktop/RISCV/RISCV_Top.v
-Z145 FC:/Users/HuyDepTry/Desktop/RISCV/RISCV_Top.v
+Z142 w1726849003
+Z143 8C:/Users/HuyDepTry/Desktop/RISCV/RISCV_Top.v
+Z144 FC:/Users/HuyDepTry/Desktop/RISCV/RISCV_Top.v
 L0 1
 R8
 r1
 31
-Z146 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/RISCV_Top.v|
+Z145 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/RISCV_Top.v|
 R10
-Z147 n@r@i@s@c@v_@top
-Z148 !s108 1726461598.054000
+Z146 n@r@i@s@c@v_@top
+Z147 !s100 ZRFeDC?Fz?:I7Nd>^EM7a1
+Z148 !s108 1726849007.280000
 Z149 !s107 C:/Users/HuyDepTry/Desktop/RISCV/RISCV_Top.v|
 !i10b 1
 !s85 0
@@ -317,7 +317,7 @@ R8
 r1
 !s85 0
 31
-!s108 1726461598.798000
+!s108 1726849007.953000
 !s107 C:/Users/HuyDepTry/Desktop/RISCV/Top_tb.v|
 Z156 !s90 -reportprogress|300|-work|work|C:/Users/HuyDepTry/Desktop/RISCV/Top_tb.v|
 !s101 -O0

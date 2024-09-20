@@ -1,4 +1,4 @@
-module Data_Memory (clk, reset, MemWrite, MemRead, address, Writedata, Data_out);
+                               module Data_Memory (clk, reset, MemWrite, MemRead, address, Writedata, Data_out);
 input clk, reset, MemWrite, MemRead;
 input [31:0] address, Writedata;
 output reg [31:0] Data_out;

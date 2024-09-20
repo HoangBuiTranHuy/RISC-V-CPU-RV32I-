@@ -44,7 +44,7 @@ Register_File Register_File (
 .Rs1(instruction_outTop[19:15]),
 .Rs2(instruction_outTop[24:20]),
 .Rd(instruction_outTop[11:7]),
-.Write_data(ALU_resultTop),
+.Write_data(writeBacktop),
 .RegWrite(RegWriteTop), 
 .Read_data1(Read_data1Top),
 .Read_data2(Read_data2Top)
@@ -83,11 +83,11 @@ Data_Memory Data_Memory (
 .MemWrite(MemWriteTop), 
 .MemRead(MemReadTop), 
 .address(ALU_resultTop), 
-//.Writedata(Read_data2Top), 
+.Writedata(Read_data2Top), 
 .Data_out(Data_outTop)
-)
+);
 
-//mux2
+
 
 
 
@@ -115,9 +115,9 @@ Control_Unit Control_Unit(
 
 Immediate_Generator imm (
 .instruction(instruction_outTop[31:0]),
-.I(immOutTop), 
-.S(), 
-.SB()
+.opcode(instruction_outTop[6:0]),
+.immOut(immOutTop)
+
 );
 
 

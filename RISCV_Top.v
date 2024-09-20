@@ -28,8 +28,7 @@ Program_Counter PC (
 
 
 Instruction_Memory Imem(
-.clk(clk),
-.reset(reset),
+
 .read_address(PCoutTop),
 .Instruction_out(instruction_outTop)
 
