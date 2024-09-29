@@ -5,6 +5,10 @@ input clk,reset);
 wire [31:0] PCoutTop, NexttoPCout, instruction_outTop, Read_data2Top,
 Read_data1Top, toALU, ALU_resultTop, Data_outTop, writeBacktop, immOutTop;
 
+wire BranchTop, BrLT_Top, BrUn_Top, BrEq_Top, PCselTop;
+
+wire [31:0] ALUPCimm_out_Top, muxBranch_Out_Top;
+
 wire [3:0] ALUControl_outTop;
 
 wire RegWriteTop, ALUSrcTop, MemWriteTop, MemReadTop, MemtoRegTop;
@@ -20,7 +24,7 @@ PCplus4 pc4(
 Program_Counter PC (
 .clk(clk),
 .reset(reset),
-.PC_in(NexttoPCout),
+.PC_in(muxBranch_Out_Top),
 .PC_out(PCoutTop)
 
 );
@@ -53,9 +57,9 @@ Register_File Register_File (
 
 
 ALU ALU(
-.A(Read_data1Top),
+.A(ALUPCimm_out_Top),
 .B(toALU), 
-.zero(), 
+ 
 .ALUControl_in(ALUControl_outTop), 
 .ALU_result(ALU_resultTop)
 );
@@ -102,8 +106,13 @@ Sel(MemtoRegTop),
 
 Control_Unit Control_Unit(
 .reset(reset),
+.PCsel(PCselTop),
+.BrEq(BrEq_Top),
+.BrLT(BrLT_Top),
+.BrUn(BrUn_Top),
+.inst(instruction_outTop),
 .OPcode(instruction_outTop[6:0]), 
-//.Branch(), 
+.Branch(BranchTop), 
 .MemRead(MemReadTop), 
 .MemtoReg(MemtoRegTop), 
 .ALUOp(ALUOpTop), 
@@ -120,11 +129,34 @@ Immediate_Generator imm (
 );
 
 
+//mux branch
+mux_Branch mux_Branch(
+.Branch(BranchTop), 
+.plus4(NexttoPCout), 
+.pcimm(ALU_resultTop), 
+.muxBranch_Out(muxBranch_Out_Top)
+);
 
 
 
+//mux_dataline Branch select 
+mux_PCsel mux_PCsel(
+.PC_in(PCoutTop), 
+.mux_Read_data1(Read_data1Top), 
+.PCsel(PCselTop), 
+.ALUPCimm_out(ALUPCimm_out_Top)
+);
 
 
+//comp
+
+branch_comp branch_comp (
+.data1(Read_data1Top), 
+.data2(Read_data2Top), 
+.BrUn(BrUn_Top), 
+.BrLT(BrLT_Top), 
+.BrEq(BrEq_Top)
+);
 
 
 endmodule

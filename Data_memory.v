@@ -1,4 +1,4 @@
-                               module Data_Memory (clk, reset, MemWrite, MemRead, address, Writedata, Data_out);
+module Data_Memory (clk, reset, MemWrite, MemRead, address, Writedata, Data_out);
 input clk, reset, MemWrite, MemRead;
 input [31:0] address, Writedata;
 output reg [31:0] Data_out;
@@ -76,13 +76,6 @@ always @(*)begin
 		Data_out[23:16] = 8'd0;
 		Data_out[31:24]= 8'd0;
 	end
-
-
-
-
-
-
-
 
 
 

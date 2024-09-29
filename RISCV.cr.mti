@@ -19,6 +19,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	PCplus4
 
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/branch_comp.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/branch_comp.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module branch_comp
+
+Top level modules:
+	branch_comp
+
 } {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Mux2.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Mux2.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module Mux2
@@ -47,12 +54,12 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	Top_tb
 
-} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/mux_PCsel.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/mux_PCsel.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module Instruction_Memory
+-- Compiling module mux_PCsel
 
 Top level modules:
-	Instruction_Memory
+	mux_PCsel
 
 } {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Data_memory.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Data_memory.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -60,6 +67,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	Data_Memory
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Instruction_Memory.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Instruction_Memory
+
+Top level modules:
+	Instruction_Memory
 
 } {} {}} C:/Users/HuyDepTry/Desktop/RISCV/ALU.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/ALU.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -81,6 +95,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	Immediate_Generator
+
+} {} {}} C:/Users/HuyDepTry/Desktop/RISCV/mux_Branch.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/mux_Branch.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux_Branch
+
+Top level modules:
+	mux_Branch
 
 } {} {}} C:/Users/HuyDepTry/Desktop/RISCV/Adder.v {1 {vlog -work work C:/Users/HuyDepTry/Desktop/RISCV/Adder.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012

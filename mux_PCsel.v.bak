@@ -1,0 +1,8 @@
+module mux_PCsel (PCsel, plus4, pcimm, PCsel_out);
+input [31:0] plus4, pcimm;
+input PCsel;
+output [31:0] PCsel_out;
+
+assign PCsel_out = (PCsel) ? pcimm : plus4;
+
+endmodule
